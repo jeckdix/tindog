@@ -1,0 +1,208 @@
+body {
+    font-family: 'Montserrat-black', sans-serif; 
+}
+
+#title {
+    background-color: #ff4668;
+    padding-bottom: 4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat-black', sans-serif;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ', sans-serif;
+    line-height: 1.5;
+    color: white;
+    font-weight: 900;        
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.img-rotate {
+    transform:rotate(20deg);   
+    max-width: 30%;
+    position: absolute;+
+}
+
+/* Navigation bar  */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Features section  */
+
+
+#features {
+    padding: 7% 5%;
+    text-align: center;
+    background-color: #fff;
+    position: relative  ;
+    z-index: 1;
+}
+
+.features-box {
+    padding: 5%;
+}
+    
+.fas {
+    color   : #ef8172;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.fas:hover {
+    color: #ff4c68 ;
+}
+
+.features-heading {
+    font-family: 'Montserrat-black', sans-serif; 
+    font-size: 1.5rem;
+    font-weight:bold ;
+}
+
+.features-paragraph { 
+    color: #8f8f8f;
+}
+
+/* Testimonials section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    font-family: 'Montserrat-black', sans-serif; 
+}
+.testimonials-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 7% 15%;
+}
+
+.press-logo {
+     width: 15%;
+     margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 3% 15%;
+    text-align: center;
+    font-family: 'Montserrat-black', sans-serif; 
+}
+
+.card-header {
+    font-size: 1rem;
+    font-weight:bold ; 
+}
+
+.card-title {
+    font-family: 'Montserrat-black', sans-serif; 
+    font-weight:bold;
+    font-size: 1.5rem; 
+}
+
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 4% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat-black', sans-serif; 
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.cta-btn {
+    margin-right: 2rem;
+    font-family: ;
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+
+/* Footer Section */
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 10% 15%;
+    color: rgb(129, 129, 129);
+    font-family: sans-serif;
+}
+
+.footer-text {
+    font-family: sans-serif;
+}
+
+.footer-icons {
+    margin-right: 1rem;
+    color: black;
+}
+
+.footer-icons:hover {
+    color: #ff4c68;
+}
+
+
+@media (min-width: 768px) {
+    .card{
+        background-color:;
+    }
+}   
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+h2 {
+    font-family: 'Montserrat-black', sans-serif; 
+    font-weight:bold;
+}
+
+.title-heading {
+    padding-bottom: 3rem;
+    text-align: left;
+}
+@media (max-width: 990px) {
+    .title {
+        text-align: center;
+    }
+
+    .title-heading {
+        text-align: center;
+    }
+
+    .img-rotate {
+        padding-top: 4rem; 
+        position: static;
+        transform: rotate(0);
+        align-items: center;
+    }
+}
+
+
